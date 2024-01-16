@@ -1,0 +1,1329 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Page2/">
+      
+      
+        <link rel="next" href="../codeshlt/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.4">
+    
+    
+      
+        <title>Project 1 Report - M Tutorial</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-1program" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="M Tutorial" class="md-header__button md-logo" aria-label="M Tutorial" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            M Tutorial
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 1 Report
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/DDKing_ZJU/Material-Mkdocs-Tutorial/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    DDKing/Material-Mkdocs-Tutorial
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome to MkDocs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../comments/" class="md-tabs__link">
+        
+  
+    
+  
+  Try Some Comments Here!
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../HideNavigation/" class="md-tabs__link">
+          
+  
+  Example Pages
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="M Tutorial" class="md-nav__button md-logo" aria-label="M Tutorial" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    M Tutorial
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/DDKing_ZJU/Material-Mkdocs-Tutorial/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    DDKing/Material-Mkdocs-Tutorial
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comments/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Try Some Comments Here!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Example Pages
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Example Pages
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HideNavigation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HideNav
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../HideNothing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HideNothing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Hidetoc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HideTOC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Page2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    算法笔记1——单调栈和单调队列
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Project 1 Report
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Project 1 Report
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-1-brute-force-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm 1: Brute Force Algorithm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-2-iterative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm 2: Iterative
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Algorithm 2: Iterative">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-of-square" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction of Square
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-should-we-square" class="md-nav__link">
+    <span class="md-ellipsis">
+      When should we square?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coincidence-or-provable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coincidence or Provable?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-3-recursive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm 3: Recursive
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../codeshlt/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code Highlighting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-1-brute-force-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm 1: Brute Force Algorithm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-2-iterative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm 2: Iterative
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Algorithm 2: Iterative">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-of-square" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction of Square
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-should-we-square" class="md-nav__link">
+    <span class="md-ellipsis">
+      When should we square?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coincidence-or-provable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coincidence or Provable?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithm-3-recursive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithm 3: Recursive
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<p></br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br></p>
+<p><strong><center><font face="Times New Roman" size = 6 style = "margin-left:10%; margin-right:10%">Performance Measurement(Power)</font></center></strong>
+</br>
+</br>
+<strong><center><font face="Times New Roman" size = 5>Author: WoChao He!</font></center></strong>
+</br>
+<strong><center><font face="Times New Roman" size = 4>Date: 2023-10-8</font></center></strong></p>
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br>
+</br></p>
+<p><strong><center><font face="Times New Roman" size = 7>Menu</font></center></strong>
+</br></p>
+<div class="toc">
+<ul>
+<li><a href="#chapter-1program">Chapter 1:Program</a><ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#algorithm-1-brute-force-algorithm">Algorithm 1: Brute Force Algorithm</a></li>
+<li><a href="#algorithm-2-iterative">Algorithm 2: Iterative</a><ul>
+<li><a href="#introduction-of-square">Introduction of Square</a></li>
+<li><a href="#when-should-we-square">When should we square?</a></li>
+<li><a href="#coincidence-or-provable">Coincidence or Provable?</a></li>
+</ul>
+</li>
+<li><a href="#algorithm-3-recursive">Algorithm 3: Recursive</a></li>
+</ul>
+</li>
+<li><a href="#chapter-2-testing">Chapter 2: Testing</a><ul>
+<li><a href="#test-data-design">Test Data Design</a></li>
+<li><a href="#test-program-design">Test Program Design</a></li>
+<li><a href="#result-processing-and-comparing">Result processing and comparing</a></li>
+</ul>
+</li>
+<li><a href="#chapter-3-open-discussion">Chapter 3: Open Discussion</a></li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br></p>
+<h1 id="chapter-1program"><div style="text-align:center;margin-left:12%;margin-right:12%"><font face="Times New Roman" >Chapter 1:Program</font></div></h1>
+<p></br>
+</br></p>
+<h2 id="introduction"><div style="margin-left:12%;margin-right:10%">Introduction</div></h2>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;This mission need to write a program to calculate a number’s power with integer exponent.</br>&emsp;&emsp;Even if we can use function pow() in &lt;math.h&gt;, it can be even slower than just using brute force, since it is designed for float exponent. Much worse, since the exponent is turned to float, accuracy problems can be triggered.</br>&emsp;&emsp;Therefore, we need to write a program which is suitable with integer exponent, and we hope that it can be as fast as possible.</br>
+</div>
+
+<p></br></p>
+<h2 id="algorithm-1-brute-force-algorithm"><div style="margin-left:12%;margin-right:10%">Algorithm 1: Brute Force Algorithm</div></h2>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">
+&emsp;&emsp;We can easily come up with algorithm 1, which uses N - 1 multiplications. This is same as how we calculate it on our own. It's easy to calculate that the algorithm is O(N). Besides, since the function only contain some simple variables, the space complexity is O(1).
+</div>
+
+<p></br></p>
+<div class="arithmatex">\[X^N =\overbrace{X \times X \times \cdots \times X}^{N-1 \text{ times of multiplications}}\]</div>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;This is easy to realize in the C program as a function, the code is attached below.</br>
+</div>
+
+<p></br></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="w">                </span><span class="kt">double</span><span class="w"> </span><span class="nf">Brute_Force</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">)</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">                </span><span class="p">{</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">                  </span><span class="kt">double</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">                  </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">                  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">                  </span><span class="p">{</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">                     </span><span class="n">ans</span><span class="w"> </span><span class="o">*=</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">                     </span><span class="c1">// use n - 1 times mutiplications</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">                  </span><span class="p">}</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">                  </span><span class="k">return</span><span class="w"> </span><span class="n">ans</span><span class="p">;</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">                </span><span class="p">}</span>
+</code></pre></div>
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br></p>
+<h2 id="algorithm-2-iterative"><div style="margin-left:12%;margin-right:10%">Algorithm 2: Iterative</div></h2>
+<p></br></p>
+<h3 id="introduction-of-square"><div style="margin-left:12%;margin-right:10%">Introduction of Square</div></h3>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Tips in the mission tells us that there problem can be solve more easily. You can use square in proper place. For example:</br>
+</div>
+
+<div class="arithmatex">\[
+81 = 3 \times 3 \times 3 \times 3 \\
+81 = (3 \times 3)^2
+\]</div>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;We can use square to considerably simplify our algorithm. Then there's only one question to solve.</br>
+</div>
+
+<p></br></p>
+<h3 id="when-should-we-square"><div style="margin-left:12%;margin-right:10%">When should we square?</div></h3>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Using number 81 seems to be too easy for the algorithm. We need to find more complex calculations to find out the answer. Then, a bigger number 59049 can be our choice.</br>
+</div>
+
+<div class="arithmatex">\[
+59049 = 3 ^{10} \\
+3^2 = 3 \times 3 = 9 \\
+9^2 = 81 \\
+81 ^ 2 = 6561 \\
+6561 ^ 2 &gt;&gt; 59049 \text{  -- failed!} \\
+81 \times 3 = 243 \\
+243^2 = 59049 \text{ -- success!} \\
+59049 = ((3^2)^2 \times 3)^2 
+\]</div>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Observe when we implement multiplication. There are four squares, and we implement the multiplication in front of the second and fourth one.</br>&emsp;&emsp;Now we write the binary form of number 10. we get 1010. Ignoring the first bit, if we treat number 1 as the step that we should apply a multiplication, the binary number 010 is just what we want as the order. (Later I will give an explanation of ignoring first bit)
+</div>
+<p></br></p>
+<h3 id="coincidence-or-provable"><div style="margin-left:12%;margin-right:10%">Coincidence or Provable?</div></h3>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Jaw-dropping as the conclusion could be, it can be proved though.
+</div>
+
+<div class="arithmatex">\[
+3^{10} \\ = 3^{1\times 2^3 + 0 \times 2^2 + 1\times 2^1 + 0 \times 2^0}\\ = (3^{1\times 2^2 + 0 \times 2^1 + 1\times 2^0 })^2\\ = (3^{1\times 2^2 +0\times2^1}\times 3)^2 \\= ((3^{1\times2^1})^2\times 3)^2 \\= ((3^2)^2\times3)^2
+\]</div>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;From above we can find that when we implement multiplication is actually linked to its binary bit. For other numbers, we can still use this to prove it right.
+</div>
+
+<p></br>
+</br>
+</br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Thus, through this mathematical feature, we can develop an iterative algorithm whose time complexity is O(log(N)), which is much better than brute-force algorithm. The code is attached in the next page. Since we only used some simple variables, the space complexity is also O(1).
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br>
+</br>
+</br>
+</br>
+</br></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="w">            </span><span class="cp">#define Mod2(X) ((X) - (((X) &gt;&gt; 1) &lt;&lt; 1))</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">            </span><span class="c1">// use bit operation to increase speed.</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">            </span><span class="c1">// x % 2 = x - x / 2 * 2 (x is an integer)</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">            </span><span class="kt">double</span><span class="w"> </span><span class="nf">Fast_Exponent_iterative</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">)</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">            </span><span class="p">{</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">              </span><span class="c1">// iterative algorithm use binary form and bit operation</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">              </span><span class="kt">int</span><span class="w"> </span><span class="n">TotalBit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">CurrentBit</span><span class="p">;</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">              </span><span class="kt">double</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">              </span><span class="c1">// calculate TotalBit</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">              </span><span class="kt">int</span><span class="w"> </span><span class="n">buf</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">              </span><span class="k">while</span><span class="w"> </span><span class="p">((</span><span class="n">buf</span><span class="w"> </span><span class="o">&gt;&gt;=</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">                  </span><span class="n">TotalBit</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">              </span><span class="n">CurrentBit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">++</span><span class="n">TotalBit</span><span class="p">;</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">              </span><span class="c1">// traverse from the highest bit to the lowest bit</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">              </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">CurrentBit</span><span class="p">)</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">              </span><span class="p">{</span><span class="w">  </span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">                  </span><span class="c1">//collecting current bit</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">                  </span><span class="c1">// quite similar as x / 1000 % 10, etc.</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">                  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Mod2</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="p">(</span><span class="n">CurrentBit</span><span class="w"> </span><span class="o">--</span><span class="p">)))</span><span class="w"> </span><span class="c1">// odd case</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">                     </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">                  </span><span class="k">else</span><span class="w"> </span><span class="c1">// even case</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">                     </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">ans</span><span class="p">;</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">              </span><span class="p">}</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">              </span><span class="k">return</span><span class="w"> </span><span class="n">ans</span><span class="p">;</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="w">            </span><span class="p">}</span>
+</code></pre></div>
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br></p>
+<h2 id="algorithm-3-recursive"><div style="margin-left:12%;margin-right:10%">Algorithm 3: Recursive</div></h2>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;It seemed hard to observe the mathematical rule above just in a second. Thus we need a algorithm that is easier to come up. </br>
+&emsp;&emsp;We used to think the answer from the initial case. But as our math intuition tells us, if we want to prove a theorem, we can think from both ways. That is, we can focus on the end of the equation -- the answer. </br>
+&emsp;&emsp;Ask a few questions. Is the last step a square? If not, what is the other case? It is clearly that when the exponent is even, it can be the square of its square root. And for another case, when it is odd, we can first take a truth from it and execute square root.
+</div>
+
+<div class="arithmatex">\[
+X^N = \begin{cases}(X^{\frac{N}{2}})^2, N \equiv 0 (\text{mod } 2) \\ (X^{\frac{N - 1}{2}})^2\times X, N \equiv 1 (\text{mod } 2)\end{cases}
+\]</div>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;The quation transform f(N) into f(N/2), its easy to think that we can use recursive form to realize the algorithm. The recursion exit: N = 1, X^N = X. From the recursive equation we can find the time complexity O(log(N)). The code is attached on the next page. </br>&emsp;&emsp;By the way, since we called the function again, so it will have more space complexity. It is relative to the times the function call itself, which is O(log(N)).
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br>
+</br>
+</br>
+</br>
+</br></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="w">            </span><span class="cp">#define Mod2(X) ((X) - (((X) &gt;&gt; 1) &lt;&lt; 1))</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">            </span><span class="c1">// use bit operation to increase speed.</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">            </span><span class="c1">// x % 2 = x - x / 2 * 2 (x is an integer)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">            </span><span class="kt">double</span><span class="w"> </span><span class="nf">Fast_Exponent_recursive</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">)</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">            </span><span class="p">{</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">                </span><span class="c1">// Exit circumstance</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">                </span><span class="c1">// x^1 = x</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">                    </span><span class="k">return</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">                </span><span class="c1">// recursive process</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">                </span><span class="kt">double</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Fast_Exponent_recursive</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">);</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Mod2</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="c1">// if n is odd</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">                </span><span class="p">{</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">                    </span><span class="k">return</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">                </span><span class="k">else</span><span class="w"> </span><span class="c1">// if n is even</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">                </span><span class="p">{</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">                    </span><span class="k">return</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">            </span><span class="p">}</span>
+</code></pre></div>
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br></p>
+<h1 id="chapter-2-testing"><div style="text-align:center;margin-left:12%;margin-right:12%"><font face="Times New Roman" >Chapter 2: Testing</font></div></h1>
+<p></br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Now we want to test the efficiency of three algorithms. This means we need to design several data, test them in three algorithms and compare their running time.</br>
+</div>
+
+<p></br>
+</br></p>
+<h2 id="test-data-design"><div style="margin-left:12%;margin-right:10%">Test Data Design</div></h2>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;To get a more convincible result, we need a wide range of N. Samely, X should be a constant that to avoid tiny effect. if N is big enough X^N can be very big. So we choose an X very close to 1 -- 1.0001. And N is ranged from 1000 to 100000.</br>
+</div>
+
+<div class="arithmatex">\[
+N = 1000, 5000, 10000, 20000, 40000, 60000, 80000, 100000.
+\]</div>
+<p></br></p>
+<h2 id="test-program-design"><div style="margin-left:12%;margin-right:10%">Test Program Design</div></h2>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;The only point to be solved it to collect running time. This can be solved by including library &lt;time.h&gt;. Using function clock() to know the current time, record begin time and end time, we can calculate the duration by doing subtract. But to avoid the circumstance in which the duration is too small to test, we introduce a repeat time K, to run function repeatly for several times, and the duration will be TotalTime divided by K.
+</div>
+
+<div style="page-break-after:always"></div>
+
+<p></br>
+</br></p>
+<div class="arithmatex">\[
+Duration = \dfrac{TotalTime}{K} 
+\\
+~\\
+TotalTime = \dfrac{EndTime - StartTime}{ClockPerSecond}
+\]</div>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;To call the three functions in a program conveniently, I used a function pointer, and created a linked list to store all the three functions. So that I can call all the three functions in one 'for' statement. The main part of testing program is attached below. 
+</div>
+
+<p></br>
+</br>
+</br>
+</br>
+</br></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="w">            </span><span class="c1">// time limit</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">            </span><span class="cp">#define LIMITTIME 30.0</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">            </span><span class="k">typedef</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="p">(</span><span class="o">*</span><span class="n">Function</span><span class="p">)(</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="p">);</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">            </span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">duration</span><span class="p">;</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">            </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">            </span><span class="c1">// use linked list to save function for further convenience</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">            </span><span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">FunctionNode</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">            </span><span class="p">{</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">                </span><span class="n">Function</span><span class="w"> </span><span class="n">Function</span><span class="p">;</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">                </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">Name</span><span class="p">;</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">                </span><span class="k">struct</span><span class="w"> </span><span class="nc">FunctionNode</span><span class="w"> </span><span class="o">*</span><span class="n">Next</span><span class="p">;</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">            </span><span class="p">}</span><span class="w"> </span><span class="o">*</span><span class="n">FunctionNode</span><span class="p">;</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="p">{</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="c1">// generate linked list</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="n">FunctionNode</span><span class="w"> </span><span class="n">func1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span><span class="w"> </span><span class="nc">FunctionNode</span><span class="p">));</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="n">func1</span><span class="o">-&gt;</span><span class="n">Function</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Brute_Force</span><span class="p">;</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">    </span><span class="n">func1</span><span class="o">-&gt;</span><span class="n">Name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Brute Force&quot;</span><span class="p">;</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="n">FunctionNode</span><span class="w"> </span><span class="n">func2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span><span class="w"> </span><span class="nc">FunctionNode</span><span class="p">));</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">    </span><span class="n">func2</span><span class="o">-&gt;</span><span class="n">Function</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Fast_Exponent_iterative</span><span class="p">;</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">    </span><span class="n">func2</span><span class="o">-&gt;</span><span class="n">Name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Iterative&quot;</span><span class="p">;</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">    </span><span class="n">FunctionNode</span><span class="w"> </span><span class="n">func3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span><span class="w"> </span><span class="nc">FunctionNode</span><span class="p">));</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">    </span><span class="n">func3</span><span class="o">-&gt;</span><span class="n">Function</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Fast_Exponent_recursive</span><span class="p">;</span>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="w">    </span><span class="n">func3</span><span class="o">-&gt;</span><span class="n">Name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Recursive&quot;</span><span class="p">;</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="w">    </span><span class="n">func1</span><span class="o">-&gt;</span><span class="n">Next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">func2</span><span class="p">;</span>
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="w">    </span><span class="n">func2</span><span class="o">-&gt;</span><span class="n">Next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">func3</span><span class="p">;</span>
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">    </span><span class="n">func3</span><span class="o">-&gt;</span><span class="n">Next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">NULL</span><span class="p">;</span>
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">    </span><span class="c1">// beginning of program</span>
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">TotalTime</span><span class="p">,</span><span class="w"> </span><span class="n">ans</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">duration</span><span class="p">,</span><span class="w"> </span><span class="n">tick</span><span class="p">;</span>
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">    </span><span class="kt">clock_t</span><span class="w"> </span><span class="n">start</span><span class="p">;</span>
+<a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="w">    </span><span class="n">scanf</span><span class="p">(</span><span class="s">&quot;%lf%d&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+<a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="w">    </span><span class="n">FunctionNode</span><span class="w"> </span><span class="n">p</span><span class="p">;</span>
+<a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="w">    </span><span class="c1">// here we use linked list traverse to execute every function</span>
+<a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">func1</span><span class="p">;</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="nb">NULL</span><span class="p">;</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">Next</span><span class="p">)</span>
+<a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a><span class="w">        </span><span class="c1">// For convenience, we set the Totaltime a constant</span>
+<a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a><span class="w">        </span><span class="c1">// To make duration precise, and avoid too much execution time</span>
+<a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">k</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">start</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clock</span><span class="p">();</span><span class="w"> </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">LIMITTIME</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">++</span><span class="p">)</span>
+<a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a><span class="w">        </span><span class="p">{</span>
+<a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a><span class="w">            </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">Function</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">);</span>
+<a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a><span class="w">            </span><span class="n">tick</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">double</span><span class="p">)(</span><span class="n">clock</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">start</span><span class="p">);</span>
+<a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a><span class="w">            </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tick</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">CLK_TCK</span><span class="p">;</span>
+<a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-4-33" name="__codelineno-4-33" href="#__codelineno-4-33"></a><span class="w">        </span><span class="n">duration</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">1000</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">k</span><span class="p">;</span>
+<a id="__codelineno-4-34" name="__codelineno-4-34" href="#__codelineno-4-34"></a><span class="w">        </span><span class="c1">// output have three lines</span>
+<a id="__codelineno-4-35" name="__codelineno-4-35" href="#__codelineno-4-35"></a><span class="w">        </span><span class="c1">// answer to check if is right,</span>
+<a id="__codelineno-4-36" name="__codelineno-4-36" href="#__codelineno-4-36"></a><span class="w">        </span><span class="c1">// totaltime is the total processing time of functions</span>
+<a id="__codelineno-4-37" name="__codelineno-4-37" href="#__codelineno-4-37"></a><span class="w">        </span><span class="c1">// duration is the time of only one processing of the function</span>
+<a id="__codelineno-4-38" name="__codelineno-4-38" href="#__codelineno-4-38"></a><span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Algorithm:%s</span><span class="se">\n</span><span class="s">answer:%.2lf</span><span class="se">\n</span><span class="s">Tick:%d</span><span class="se">\n</span><span class="s">TotalTime:%.8lfs</span><span class="se">\n</span><span class="s">Duration:%.8lfms</span><span class="se">\n\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span>
+<a id="__codelineno-4-39" name="__codelineno-4-39" href="#__codelineno-4-39"></a><span class="w">        </span><span class="n">p</span><span class="o">-&gt;</span><span class="n">Name</span><span class="p">,</span><span class="w"> </span><span class="n">ans</span><span class="p">,</span><span class="w"> </span><span class="n">tick</span><span class="p">,</span><span class="w"> </span><span class="n">TotalTime</span><span class="p">,</span><span class="w"> </span><span class="n">duration</span><span class="p">);</span>
+<a id="__codelineno-4-40" name="__codelineno-4-40" href="#__codelineno-4-40"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-4-41" name="__codelineno-4-41" href="#__codelineno-4-41"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-4-42" name="__codelineno-4-42" href="#__codelineno-4-42"></a><span class="p">}</span>
+</code></pre></div>
+<p></br>
+</br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;If we want to get data easy to use, saving our time copying and pasting, we can use multifile programing. By creating CSV documents, we can easily get a copy of data which can be used by data processing software like Excel.</br>
+&emsp;&emsp;The CSV document have format like below:
+</div>
+
+<p></br></p>
+<div style = "width:auto;margin-left:30%; margin-right:39%">
+
+| Class1 | Class2 | Class3 |
+| :----: | :----: | :----: |
+| Data1  | Data2  | Data3  |
+| Data4  | Data5  | Data6  |
+
+<center>original table<center>
+
+</br>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Class1,Class2,Class3
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>Data1,Data2,Data3
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>Data4,Data5,Data6
+</code></pre></div>
+
+<center>CSV File</center>
+
+</div>
+
+<p></br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;And this is easy to realize with some simple calls of files function. The code is attached on the next page.
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br>
+</br>
+</br>
+</br></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="p">{</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">tick</span><span class="p">;</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">TotalTime</span><span class="p">,</span><span class="w"> </span><span class="n">ans</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">duration</span><span class="p">,</span><span class="w"> </span><span class="n">LimitTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">20.0</span><span class="p">;</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">    </span><span class="kt">clock_t</span><span class="w"> </span><span class="n">start</span><span class="p">;</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">    </span><span class="n">start</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clock</span><span class="p">();</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="w">    </span><span class="n">sscanf</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="w"> </span><span class="s">&quot;%lf&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">x</span><span class="p">);</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="w">    </span><span class="n">sscanf</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="w"> </span><span class="s">&quot;%ld&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">argc</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">4</span><span class="p">)</span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="w">        </span><span class="n">sscanf</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span><span class="w"> </span><span class="s">&quot;%lf&quot;</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">LimitTime</span><span class="p">);</span>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a><span class="w">    </span><span class="c1">// For convenience, we set the Totaltime a LimitTime, the default is 20.0s.</span>
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a><span class="w">    </span><span class="c1">// To make duration precise, and avoid too much execution time</span>
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">k</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">LimitTime</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">++</span><span class="p">)</span>
+<a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a><span class="w">        </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Brute_Force</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">);</span>
+<a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a><span class="w">        </span><span class="n">tick</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">long</span><span class="p">)(</span><span class="n">clock</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">start</span><span class="p">);</span>
+<a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a><span class="w">        </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="n">tick</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">CLK_TCK</span><span class="p">;</span>
+<a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a><span class="w">    </span><span class="n">duration</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TotalTime</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">1000</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">k</span><span class="p">;</span>
+<a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a><span class="w">    </span><span class="c1">// output have three linesS</span>
+<a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a><span class="w">    </span><span class="c1">// answer to check if is right,</span>
+<a id="__codelineno-6-22" name="__codelineno-6-22" href="#__codelineno-6-22"></a><span class="w">    </span><span class="c1">// totaltime is the total processing time of functions</span>
+<a id="__codelineno-6-23" name="__codelineno-6-23" href="#__codelineno-6-23"></a><span class="w">    </span><span class="c1">// duration is the time of only one processing of the function</span>
+<a id="__codelineno-6-24" name="__codelineno-6-24" href="#__codelineno-6-24"></a><span class="w">    </span><span class="c1">// use csv document to save data</span>
+<a id="__codelineno-6-25" name="__codelineno-6-25" href="#__codelineno-6-25"></a><span class="w">    </span><span class="kt">FILE</span><span class="w"> </span><span class="o">*</span><span class="n">Try</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fopen</span><span class="p">(</span><span class="s">&quot;.</span><span class="se">\\</span><span class="s">Brute_Force.csv&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;r&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-26" name="__codelineno-6-26" href="#__codelineno-6-26"></a><span class="w">    </span><span class="kt">FILE</span><span class="w"> </span><span class="o">*</span><span class="n">CSV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fopen</span><span class="p">(</span><span class="s">&quot;.</span><span class="se">\\</span><span class="s">Brute_Force.csv&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;a+&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-27" name="__codelineno-6-27" href="#__codelineno-6-27"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Try</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nb">NULL</span><span class="p">)</span>
+<a id="__codelineno-6-28" name="__codelineno-6-28" href="#__codelineno-6-28"></a><span class="w">        </span><span class="n">fprintf</span><span class="p">(</span><span class="n">CSV</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;N,Iteration,Ticks,TotalTime,Duration</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-29" name="__codelineno-6-29" href="#__codelineno-6-29"></a><span class="w">    </span><span class="n">fprintf</span><span class="p">(</span><span class="n">CSV</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;%ld,%ld,%ld,%.4lf,%.8lf</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">tick</span><span class="p">,</span><span class="w"> </span><span class="n">TotalTime</span><span class="p">,</span><span class="w"> </span><span class="n">duration</span><span class="p">);</span>
+<a id="__codelineno-6-30" name="__codelineno-6-30" href="#__codelineno-6-30"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-6-31" name="__codelineno-6-31" href="#__codelineno-6-31"></a><span class="p">}</span>
+</code></pre></div>
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br></p>
+<h2 id="result-processing-and-comparing"><div style="margin-left:12%;margin-right:10%">Result processing and comparing</div></h2>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;For more precise and clearer datas, we set the total running times 40.0 seconds, which means a function should repeat in 40.0 seconds and get the final duration. The result comes out as below:
+</div>
+
+<p></br>
+</br></p>
+<div style="text-align:center;margin-left:5%;margin-right:5%">
+
+| Algorithm | N              | 1000       | 5000       | 10000      | 20000      |
+| --------- | -------------- | ---------- | ---------- | ---------- | ---------- |
+| 1         | Iterations(K)  | 18162267   | 2506330    | 1254825    | 627762     |
+| 1         | Ticks          | 40001      | 40001      | 40001      | 40001      |
+| 1         | TotalTime(sec) | 40.001     | 40.001     | 40.001     | 40.001     |
+| 1         | Duration(ms)   | 0.00220242 | 0.01595999 | 0.03187775 | 0.06372001 |
+| 2         | Iterations(K)  | 1125625470 | 843671292  | 768789583  | 696530845  |
+| 2         | Ticks          | 40001      | 40001      | 40001      | 40001      |
+| 2         | TotalTime(sec) | 40.001     | 40.001     | 40.001     | 40.001     |
+| 2         | Duration(ms)   | 0.00003554 | 0.00004741 | 0.00005203 | 0.00005743 |
+| 3         | Iterations(K)  | 714671967  | 499169955  | 460694971  | 432258058  |
+| 3         | Ticks          | 40001      | 40001      | 40001      | 40001      |
+| 3         | TotalTime(sec) | 40.001     | 40.001     | 40.001     | 40.001     |
+| 3         | Duration(ms)   | 0.00005597 | 0.00008014 | 0.00008683 | 0.00009254 |
+
+</div>
+
+<div style="page-break-after:always;"></div>
+
+<p></br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br></p>
+<div style="text-align:center;margin-left:5%;margin-right:5%">
+
+| Algorithm | N              | 40000      | 60000      | 80000      | 100000     |
+| --------- | -------------- | ---------- | ---------- | ---------- | ---------- |
+| 1         | Iterations(K)  | 314265     | 210090     | 157949     | 128158     |
+| 1         | Ticks          | 40001      | 40001      | 40001      | 40009      |
+| 1         | TotalTime(sec) | 40.001     | 40.001     | 40.001     | 40.009     |
+| 1         | Duration(ms)   | 0.1272843  | 0.19039935 | 0.25325263 | 0.31218496 |
+| 2         | Iterations(K)  | 626728183  | 603236092  | 559750608  | 559056221  |
+| 2         | Ticks          | 40001      | 40001      | 40001      | 40001      |
+| 2         | TotalTime(sec) | 40.001     | 40.001     | 40.001     | 40.001     |
+| 2         | Duration(ms)   | 0.00006383 | 0.00006631 | 0.00007146 | 0.00007155 |
+| 3         | Iterations(K)  | 408381434  | 377832441  | 368109113  | 365562805  |
+| 3         | Ticks          | 40001      | 40001      | 40001      | 40001      |
+| 3         | TotalTime(sec) | 40.001     | 40.001     | 40.001     | 40.001     |
+| 3         | Duration(ms)   | 0.00009795 | 0.00010587 | 0.00010867 | 0.00010942 |
+
+</div>
+
+<div style="page-break-after:always;"></div>
+
+<p></br>
+</br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Tables might not completely show all the informations directly, so I just made a graph to bring them to light.
+</div>
+
+<p></br>
+</br></p>
+<p><img src=".\\asset\\Algorithm Comparison.png" alt="Algorithm Comparison"></p>
+<p></br>
+</br>
+</br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Graph above have shown that Algorithm 2 and 3, which is O(log(N)), are significantly faster than algorithm 1. Furthermore, we can see that the result of algorithm 1 implies the running time seems to be linear with N, proving that the algorithm is O(N).</br>
+&emsp;&emsp;However, we can't tell if algorithm 2 and 3 is linear since the durations of them are too small to observe. Thus, we need a clearer graph to show the relation.
+</div>
+
+<div style="page-break-after:always"></div>
+<p></br>
+</br></p>
+<p><img src=".\\asset\\Algorithm Comparison(2&3).png" alt="Algorithm Comparison(2&3)"></p>
+<p></br>
+</br>
+</br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;From the graph, we can see that the algorithm is nearly logarithmic, ignoring tiny errors. And we can see algorithm 3, the recursive algorithm, is a litter slower than iterative one. This can be possibly caused by calling stacks.
+</div>
+
+<div style="page-break-after: always;"></div>
+
+<p></br>
+</br></p>
+<h1 id="chapter-3-open-discussion"><div style="text-align:center;margin-left:12%;margin-right:12%"><font face="Times New Roman" >Chapter 3: Open Discussion</font></div></h1>
+<p></br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;From the graph 2 we know that both algorithm 2 and 3 has some tiny errors from standard logarithmic relation.What may cause the error?</br>
+&emsp;&emsp;In my opinion, it should be attribute to selection of data. 100000 is about 2^17, this can be very small in an logarithmic algorithm. So the difference inside execution will make huge effect to the result. For example, we took number 60000 and 80000.
+</div>
+
+<div class="arithmatex">\[
+80000 = (0001 \space 0011 \space 1000 \space 1000 \space 0000)_2 \\
+60000 = (0000 \space 1110 \space 1010 \space 0110 \space 0000)_2
+\]</div>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:18px">&emsp;&emsp;Number 1 means two multiplications, and number 0 means one. There are 5 number 1s when N = 80000, but 7 1s when N = 60000, so sometimes N = 60000 can be slower than N = 80000.
+</div>
+
+<p></br>
+</br>
+</br>
+</br>
+</br></p>
+<div style="margin-left:12%;margin-right:9%;font-family:'Times New Roman';font-size:30px">
+
+**Declaration: I hereby declare that all the work done in this project titled Performance Measurement(Pow) is of my independent effort.**
+</div>
+
+<!--Thanks for watching all the markdown doc. Hope you learned a lot. I'm a beginer of markdown and HTML language up to now, hope we can be better at future!-->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      copyright 2024 <a href = "https://github.com/DDKing-ZJU" target="_blank" rel="noopener">DDKing</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/DDKing-ZJU" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.path", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.c011b7c0.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.7389ff0e.min.js"></script>
+      
+        <script src="../../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
